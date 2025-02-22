@@ -11,16 +11,6 @@
     alert(" error! enter your valid password")
 
 
-
-
-
-
-
-
-
-
-
-    
                      // Assignment # 2
               // JAVASCRIPT
 
