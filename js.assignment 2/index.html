@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment</title>
+</head>
+<body>
+    <!-- Assignment # 13-15
+    JAVASCRIPT -->
+    <script src="./index.js"></script>
+    // 15. Write a program to store phone manufacturers (Apple,Samsung, Motorola, Nokia, Sony & Haier) in an array.
+// Display the following dropdown/select menu in your
+// browser using document.write() method:
+
+<label for="manufacturers"> choose a phone maunfactur</label>
+<select name="" id="manufacturers"></select>
+<script>
+    const manufacturers =["apple","samsung","motrola","nokia","sony","hair"]
+
+    document.write('<select>');
+        document.write('option value="">-- select maunfactures--</option>')
+        
+        manufacturers.forEach(function(brand){
+        document.write('option value="' +brand+'">'+brand+'</option>');
+
+        });
+        document.writes('</option>');
+</script>
+
+
+
+
+
+
+</body>
+</html>
