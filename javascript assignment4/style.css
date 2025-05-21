@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0%;
+    
+}
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  transition: background-color 0.3s;
+}
+
+.color-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.color-box {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.color-box:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+/* question no2 */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f0f0f0;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: #4caf50;
+  border-radius: 12px;
+  transition: transform 0.2s ease;
+  position: relative;
+}
